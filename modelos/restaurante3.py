@@ -14,8 +14,7 @@ class Restaurante:
     def listar_restaurantes(cls):
         print(f"Nome do restaurante | Categoria | Ativo")
         for restaurante in cls.restaurantes:
-            print(f"{restaurante.nome} | {
-                  restaurante.categoria} | {restaurante._ativo}")
+            print(f"{restaurante.nome} | {restaurante.categoria} | {restaurante._ativo}")
 
     @property
     def ativo(self):
