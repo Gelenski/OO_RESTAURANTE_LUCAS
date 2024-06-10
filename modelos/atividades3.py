@@ -1,3 +1,4 @@
+# 1
 # class Pessoa:
 #     def __init__(self, nome, idade, profissao):
 #         self.nome = nome
@@ -42,25 +43,27 @@
 # print(fernanda) 
 
 # 6
-class ClienteBanco:
-    clientes_banco = []
+# class ClienteBanco:
+#     clientes_banco = []
 
-    def __init__(self, nome, idade, saldo, ativo, cerasa):
-        self.nome = nome
-        self.idade = idade
-        self.saldo = saldo
-        self.ativo = ativo
-        self.cerasa = cerasa
+#     def __init__(self, nome, idade, saldo, ativo, cerasa):
+#         self.nome = nome
+#         self.idade = idade
+#         self.saldo = saldo
+#         self.ativo = ativo
+#         self.cerasa = cerasa
+#         ClienteBanco.clientes_banco.append(self)
     
-    @classmethod
-    def lista_devedores(cls):
-        print("Esses devem:")
-        for clientes in cls.clientes_banco:
-            if cls.cerasa:
-                print(clientes.nome, "DEVEDOR")
+#     @classmethod
+#     def lista_devedores(cls):
+#         print("Esses devem:")
+#         for clientes in cls.clientes_banco:
+#             print(clientes.nome, "|" ,"Deve" if clientes.cerasa else "Não deve")
 
     
 
-teresa = ClienteBanco("Teresa", 80, 80000, True, False)
-patrick = ClienteBanco("Patrick", 30, 2000, False, False)
-desiderio = ClienteBanco("Desiderio", 92, 0, True, True)
+# teresa = ClienteBanco("Teresa", 80, 80000, True, False)
+# patrick = ClienteBanco("Patrick", 30, 2000, False, False)
+# desiderio = ClienteBanco("Desiderio", 92, 0, True, True)
+
+# ClienteBanco.lista_devedores()
