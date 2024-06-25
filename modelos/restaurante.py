@@ -28,7 +28,7 @@ valo_nome = restaurante_praca.nome
 
 # ! -------- Exercício 3 --------------
 
-if (restaurante_praca.ativo):
+if restaurante_praca.ativo:
     print("Está ativo.")
 else:
     print("Está inativo.")
